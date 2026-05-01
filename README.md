@@ -1,37 +1,33 @@
-# 📅 Conference Management System
+# Conference Management System
 
-[![Category](https://img.shields.io/badge/Category-Software_Engineering-success.svg)](#)
+🇬🇧 **English:**
+A robust application designed to streamline the organization and management of academic and professional conferences. Developed with C# and .NET, the system allows administrators to schedule sessions, manage speaker profiles, and handle attendee registrations. It provides a clean, user-friendly interface to ensure events run smoothly from planning to execution.
 
-*A robust congress and conference management application / Kongre ve konferans yönetim sistemi uygulaması*
+🇹🇷 **Türkçe:**
+Akademik ve profesyonel kongrelerin organizasyon sürecini kolaylaştırmak amacıyla geliştirilmiş güçlü bir yönetim sistemidir. C# ve .NET kullanılarak inşa edilen bu sistem; yöneticilerin oturum planlaması yapmasına, konuşmacı profillerini yönetmesine ve katılımcı kayıtlarını takip etmesine olanak tanır. Etkinliklerin planlama aşamasından tamamlanmasına kadar sorunsuz ilerlemesini sağlayan, kullanıcı dostu bir arayüze sahiptir.
 
----
+## Features / Özellikler
 
-## 🇬🇧 English
+- **Session Scheduling:** Create and organize multiple event tracks and time slots.
+- **Speaker Management:** Maintain detailed profiles for presenters and keynote speakers.
+- **Attendee Registration:** Secure ticket booking and attendee tracking.
+- **Dashboard Overview:** Quick insights into event capacity and upcoming schedules.
 
-### Overview
-The Conference Management System is an academic software engineering project created to digitally manage conferences, symposiums, and related academic gatherings. It encompasses full-stack software development principles with a focus on data persistence, user roles, and organizational workflows.
+## Technologies Used / Kullanılan Teknolojiler
 
-### Key Features
-- Centralized portal for creating and tracking events
-- Role-based access control (Admins, Reviewers, Authors, Participants)
-- Submission and review workflows for academic papers
-- Clear scheduling and user-interface interactions
+- **C# / .NET 8.0**
+- **Entity Framework Core**
+- **SQL Server**
 
-### Getting Started
-To evaluate the project locally, run the necessary setup scripts in your terminal. Configure the database connection string and apply the necessary migrations/scripts before launching the web server.
+## Setup and Execution / Kurulum ve Çalıştırma
 
----
-
-## 🇹🇷 Türkçe
-
-### Genel Bakış
-Konferans Yönetim Sistemi (Kongre Yönetimi), akademik konferansları, sempozyumları ve ilgili toplantıları dijital ortamda yönetmek amacıyla geliştirilmiş bir yazılım mühendisliği projesidir. Sistem, rol bazlı organizasyon yapısına, veritabanı işlemlerine ve tam kapsamlı geliştirme (full-stack) standartlarına odaklanır.
-
-### Temel Özellikler
-- Etkinlikleri oluşturmak ve takip etmek için merkezi bir ekran
-- Rol tabanlı yetkilendirme (Yöneticiler, Hakemler, Yazarlar, Katılımcılar)
-- Akademik bildiriler için gönderim ve hakem değerlendirme süreçleri
-- Etkinlik takvimi ve katılımcı yönetimi
-
-### Başlangıç
-Projeyi yerel bilgisayarınızda denemek için proje bağımlılıklarını kurup terminal üzerinden ilgili başlatma komutlarını çalıştırın. Web sunucusunu başlatmadan önce veritabanı bağlantılarını ayarlamayı ve şemaları (schema) kurmayı unutmayın.
+1. Clone the repository / Depoyu klonlayın.
+2. Ensure you have the .NET SDK installed / .NET SDK'nın kurulu olduğundan emin olun.
+3. Apply database migrations / Veritabanı migrasyonlarını uygulayın:
+   ```bash
+   dotnet ef database update
+   ```
+4. Run the project / Projeyi çalıştırın:
+   ```bash
+   dotnet run
+   ```
