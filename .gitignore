@@ -34,3 +34,5 @@ bld/
 
 # Env files
 .env
+# User-uploaded papers (runtime data)
+KongreYonetim/wwwroot/uploads/
